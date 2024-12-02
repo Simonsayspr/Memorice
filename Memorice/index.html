@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memorice Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Memorice Game</h1>
+
+<div>
+  <label for="num-cards">Number of cards:</label>
+  <select id="num-cards">
+    <option value="8">8</option>
+    <option value="16">16</option>
+    <option value="32">32</option>
+  </select>
+  <button id="start-game">Start Game</button>
+</div>
+
+<div id="game-info">
+  <p>Turns: <span id="turn-count">0</span></p>
+  <p>Time: <span id="time">0</span> seconds</p>
+</div>
+
+<div id="game-board" class="game-board"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

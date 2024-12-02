@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-board {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.hidden {
+  background-color: darkgray;
+}
+
+#game-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espacio entre los elementos */
+  width: 100%;
+  margin-top: 20px;
+}
+
+#game-info p {
+  margin: 0;
+  text-align: center;
+}
